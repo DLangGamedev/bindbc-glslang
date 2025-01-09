@@ -6,13 +6,14 @@
     "authors": [
         "Timur Gafarov"
     ],
+    "copyright": "Copyright (C) 2025, Timur Gafarov",
     
     "dependencies": {
         "bindbc-loader": "~>1.0"
     },
 
-    "importPaths": ["source"],
-    "sourcePaths": ["source"],
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
 
     "buildRequirements": [
         "allowWarnings"

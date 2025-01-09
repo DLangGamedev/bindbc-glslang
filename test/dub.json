@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "description": "BindBC-GLSLang test",
+    "homepage": "https://github.com/gecko0307/bindbc-glslang",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    "copyright": "Copyright (C) 2024, Timur Gafarov",
+    
+    "dependencies": {
+        "bindbc-glslang": { "path": ".." }
+    },
+    
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
+    
+    "buildRequirements": [
+        "allowWarnings"
+    ]
+}
