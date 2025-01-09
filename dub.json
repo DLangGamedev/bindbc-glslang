@@ -1,0 +1,31 @@
+{
+    "name": "bindbc-glslang",
+    "description": "Dynamic binding to GLSL reference compiler",
+    "homepage": "https://github.com/gecko0307/bindbc-glslang",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    
+    "dependencies": {
+        "bindbc-loader": "~>1.0"
+    },
+
+    "importPaths": ["source"],
+    "sourcePaths": ["source"],
+
+    "buildRequirements": [
+        "allowWarnings"
+    ],
+
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "library"
+        },
+        {
+            "name": "debug",
+            "targetType": "library"
+        }
+    ]
+}
